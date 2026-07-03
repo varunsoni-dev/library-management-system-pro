@@ -1,0 +1,72 @@
+[
+    {
+        "book_id": "B101",
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "publication_year": 2018,
+        "is_available": true
+    },
+    {
+        "book_id": "B102",
+        "title": "Deep Work",
+        "author": "Cal Newport",
+        "publication_year": 2016,
+        "is_available": true
+    },
+    {
+        "book_id": "B103",
+        "title": "The Pragmatic Programmer",
+        "author": "Andrew Hunt",
+        "publication_year": 1999,
+        "is_available": false
+    },
+    {
+        "book_id": "B104",
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "publication_year": 2008,
+        "is_available": true
+    },
+    {
+        "book_id": "B105",
+        "title": "Python Crash Course",
+        "author": "Eric Matthes",
+        "publication_year": 2023,
+        "is_available": true
+    },
+    {
+        "book_id": "B106",
+        "title": "Introduction to Algorithms",
+        "author": "Thomas H. Cormen",
+        "publication_year": 2022,
+        "is_available": false
+    },
+    {
+        "book_id": "B107",
+        "title": "The Clean Coder",
+        "author": "Robert C. Martin",
+        "publication_year": 2011,
+        "is_available": true
+    },
+    {
+        "book_id": "B108",
+        "title": "Design Patterns",
+        "author": "Erich Gamma",
+        "publication_year": 1994,
+        "is_available": true
+    },
+    {
+        "book_id": "B109",
+        "title": "Think Python",
+        "author": "Allen B. Downey",
+        "publication_year": 2015,
+        "is_available": true
+    },
+    {
+        "book_id": "B110",
+        "title": "Effective Python",
+        "author": "Brett Slatkin",
+        "publication_year": 2019,
+        "is_available": true
+    }
+]
