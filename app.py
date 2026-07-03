@@ -16,6 +16,16 @@ def main():
 
     library.display_all_books()
 
+    print("\nSearching for Book...\n")
+
+    book = library.search_book_by_id("B102")
+
+    if book:
+        print("Book Found!\n")
+        book.display_info()
+    else:
+        print("Book not found.")
+
 
 if __name__ == "__main__":
     main()

@@ -21,3 +21,10 @@ class Library:
 
         for book in self.books:
             book.display_info()
+
+    def search_book_by_id(self, book_id):
+        for book in self.books:
+            if book.book_id == book_id:
+                return book
+
+        return None
