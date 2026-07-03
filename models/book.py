@@ -1,6 +1,9 @@
 class Book:
     """
-    Represents a single book in the library.
+    Marks the book as borrowed.
+
+    Returns:
+        bool: True if successful, False if already borrowed.
     """
 
     def __init__(self, book_id, title, author, publication_year):
@@ -11,18 +14,20 @@ class Book:
         self.is_available = True
 
     def borrow(self):
+
         if self.is_available:
             self.is_available = False
-            print(f'"{self.title}" has been borrowed.')
-        else:
-            print(f'"{self.title}" is already borrowed.')
+            return True
+
+        return False
 
     def return_book(self):
+
         if not self.is_available:
             self.is_available = True
-            print(f'"{self.title}" has been returned.')
-        else:
-            print(f'"{self.title}" is already available.')
+            return True
+
+        return False
 
     def display_info(self):
         status = "Available" if self.is_available else "Borrowed"
